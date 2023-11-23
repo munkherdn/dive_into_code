@@ -15,10 +15,10 @@ list_n_grains_1, list_total_grains_1 = compute_sorori_shinzaemon(n_days=100)
 list_n_grains_2, list_total_grains_2 = compute_sorori_shinzaemon(n_days=10)
 
 # Plotting
-plt.plot(range(1, 101), list_n_grains_1, label='Grains on the nth day (Problem 1)')
-plt.plot(range(1, 101), list_total_grains_1, label='Total grains by nth day (Problem 1)')
-plt.plot(range(1, 11), list_n_grains_2, label='Grains on the nth day (Problem 2)')
-plt.plot(range(1, 11), list_total_grains_2, label='Total grains by nth day (Problem 2)')
+plt.plot(range(1, 101), list_n_grains_1)
+plt.plot(range(1, 101), list_total_grains_1)
+plt.plot(range(1, 11), list_n_grains_2)
+plt.plot(range(1, 11), list_total_grains_2)
 
 # Problem 3
 total_grains_3 = list_total_grains_1[-1]
