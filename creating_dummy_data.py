@@ -56,10 +56,13 @@ plt.show()
 # Problem 5: Data combination
 data = np.vstack((data1, data2))
 
+
 # Problem 6: Labeling
 labels = np.zeros((1000, 1))
 labels[500:] = 1
 
+
 combined_data = np.hstack((data, labels))
+
 
 print(combined_data.shape)
